@@ -13,7 +13,7 @@ const AppLogin = ({ submitForm }) => {
     <div className='form-content-right'>
       <form onSubmit={handleSubmit} className='form' noValidate>
         <h1>
-          Get started with us today! Create your account by filling out the
+           Log In to your account by filling out the
           information below.
         </h1>
         <div className='form-inputs'>
@@ -45,7 +45,7 @@ const AppLogin = ({ submitForm }) => {
           Log In
         </button>
         <span className='form-input-signup'>
-          Donot have an account? Sign In <a href='#'>here</a>
+          Donot have an account? Sign Up <a href='#'>here</a>
         </span>
       </form>
     </div>
